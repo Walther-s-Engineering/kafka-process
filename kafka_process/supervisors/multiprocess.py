@@ -12,6 +12,7 @@ from types import FrameType
 from tricky.typing import String
 
 # NOTE: A lot of code taken from "uvicorn" framework, but rewritten.
+# Link: https://github.com/encode/uvicorn
 
 HANDLED_SIGNALS = (
     signal.SIGINT,  # Unix signal 2. Sent by Ctrl+C.
