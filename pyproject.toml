@@ -11,6 +11,8 @@ packages = [{include = "kafka_process"}]
 python = "^3.8"
 attrs = ">=23.2.0"
 tricky = "0.0.15"
+pytest = ">=8.0.2"
+confluent-kafka = ">=2.3.0"
 
 
 [build-system]
