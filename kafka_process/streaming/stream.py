@@ -16,9 +16,9 @@ from tricky.getters import preserve_attr
 from tricky.iterables import unzip
 from tricky.typing import Bool, Integer, String
 
-from src.common import base_logger, parsing
-from src.common.data.models import KafkaSettings
-from src.common.data.models import Message as MessageModel
+from kafka_process.data.models.message import Message as MessageModel
+from kafka_process.logger import logger as base_logger
+from kafka_process.helpers import parsing
 
 __all__ = ("Stream",)
 
